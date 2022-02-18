@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//CRUD
+Route::get('/1', 'MuralController@create');
+Route::get('/2', 'MuralController@read');
+Route::get('/3', 'MuralController@update');
+Route::get('/4', 'MuralController@delete');
+
+
