@@ -1,11 +1,10 @@
 @extends('site.basico')
 
-@section('titulo','que foi')
-
 @section('cabecalho')
-Página 02
+Página 03
 @endsection
 
+
 @section('conteudo')
-<p> Conteúdo da página 02</p>
+<p> Conteúdo da página</p>
 @endsection

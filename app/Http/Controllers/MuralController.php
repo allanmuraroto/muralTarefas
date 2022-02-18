@@ -6,23 +6,28 @@ use Illuminate\Http\Request;
 
 class MuralController extends Controller
 {
-    public function create()
+    public function index()
     {
         return view('site.pagina1');
     }
 
-    public function read()
+    public function create()
     {
         return view('site.pagina2');
     }
 
+    public function read()
+    {
+        return view('site.pagina3');
+    }
+
     public function update()
     {
-        return 'Atualizando';
+        return view('site.pagina4');
     }
 
     public function delete()
     {
-        return 'Deletando';
+        return view('site.pagina5');
     }
 }

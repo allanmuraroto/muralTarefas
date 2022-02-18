@@ -16,9 +16,10 @@ Route::get('/', function () {
 });
 
 //CRUD
-Route::get('/1', 'MuralController@create');
-Route::get('/2', 'MuralController@read');
-Route::get('/3', 'MuralController@update');
-Route::get('/4', 'MuralController@delete');
+Route::get('/1', 'MuralController@index');
+Route::get('/2', 'MuralController@create');
+Route::get('/3', 'MuralController@read');
+Route::get('/4', 'MuralController@update');
+Route::get('/5', 'MuralController@delete');
 
 
